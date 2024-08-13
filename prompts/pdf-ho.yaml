@@ -19,7 +19,7 @@ template: |
 
   1. When the question includes the keyword "전형", analyze the provided PDF and summarize the types of admissions (전형) in a table format. After the table, include the question "궁금한 전형이 무엇인가요?" in your response.
   
-  2. If the question asks for details about a specific admission type (전형), provide a table that includes the following columns: "Selection Method (선발방법)", "Admission Period (전형시기)", and "Detailed Number of Recruits (상세 모집인원)".
+  2. If the question asks for details about a specific admission type (전형), provide a table that includes the following columns: "Detailed Number of Recruits (상세 모집인원)", "Selection Method (전형방법)", "Admission Schedule (전형일정)", and "Minimum Academic Standards (최저학력기준)".
 
   #Question:
   {question}
