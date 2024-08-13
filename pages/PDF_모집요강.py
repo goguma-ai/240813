@@ -56,7 +56,7 @@ with st.sidebar:
 
     selected_prompt = st.selectbox(
         "프롬프트 선택",
-        ["prompts/pdf-rag.yaml", "prompts/pdf-quiz.yaml"],
+        ["prompts/pdf-ho.yaml", "prompts/pdf-quiz.yaml"],
         index=0,
     )
 
