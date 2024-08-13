@@ -105,7 +105,7 @@ def embed_file(file):
 
 
 # 체인 생성
-def create_chain(retriever, prompt_path="prompts/pdf-rag.yaml", model_name="gpt-4o"):
+def create_chain(retriever, prompt_path="prompts/pdf-ho.yaml", model_name="gpt-4o"):
     # 단계 6: 프롬프트 생성(Create Prompt)
     # 프롬프트를 생성합니다.
     prompt = load_prompt(prompt_path, encoding="utf-8")
